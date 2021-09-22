@@ -1,0 +1,121 @@
+/*Limpando formatações padrões*/
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 1em;
+	font-family: Trebuchet MS, Helvetica,sans-serif ;
+	background: #363636;
+}
+/*layout*/
+#principal{
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+	background: #363636;
+}
+
+#areacab{
+	background-color: #f7b600;
+	padding: 15px;
+	text-align: center;
+}
+#logo{
+	padding: 10px;
+}
+
+#menu{
+padding: 1-px;
+}
+#conteudo{
+	width: 660px;
+	float: left;
+	background: #363636;
+
+}
+.postagens{
+	padding: 20px;
+	margin-bottom: 20px;
+
+
+}
+
+#lateral{
+	width: 240px;
+    float: right;
+    background: whitesmoke;
+}
+#rodape{
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+
+}
+
+h1{
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+h2{
+	color: #f7b600;
+}
+.branco{
+	color: white;
+}
+.data{
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+.conteudo-lateral{
+	background: #363636;
+	padding: 10px;
+	margin-bottom: 10px dotted #CCC;
+
+}
+.postagem-lateral{
+	font-size: 0.8em;
+	padding: 5px;
+	
+
+}
+
+/*Frmatação Menu*/
+#areacab a:link, #areacab a:visited{
+	color: #FFF;
+	padding: 8px 12px;
+}
+#areacab a:hover{
+	color: #f7b600;
+	background: #FFF;
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+}
+a:link,  a:visited{
+	color: #f7b600;
+	
+} 
+a:hover{
+	text-decoration: underline;
+}
+h3{
+	color: #565656;
+	padding: 5px;
+}
+p{
+	color: white;
+}
+span{
+color: white;
+}
+h3{
+	color: orange;
+}
+
